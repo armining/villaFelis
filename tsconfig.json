@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "allowJs": true,
     "lib": [
       "es6",
       "dom"
@@ -13,6 +14,9 @@
   },
   "exclude": [
     "node_modules"
+  ],
+  "files": [
+    "typings.d.ts"
   ],
   "compileOnSave": false,
   "angularCompilerOptions": {
